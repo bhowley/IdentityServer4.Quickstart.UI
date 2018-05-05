@@ -8,9 +8,9 @@ if (!(Test-Path -Path Modules))  { mkdir Modules }
 if (!(Test-Path -Path Views))       { mkdir Views }
 if (!(Test-Path -Path wwwroot))     { mkdir wwwroot }
 
-copy .\ui\IdentityServer4.Modules-release\Modules\* Modules -recurse -force
-copy .\ui\IdentityServer4.Modules-release\Views\* Views -recurse -force
-copy .\ui\IdentityServer4.Modules-release\wwwroot\* wwwroot -recurse -force
+copy .\ui.temp\IdentityServer4.Modules-release\Modules\* Modules -recurse -force
+copy .\ui.temp\IdentityServer4.Modules-release\Views\* Views -recurse -force
+copy .\ui.temp\IdentityServer4.Modules-release\wwwroot\* wwwroot -recurse -force
 
 del ui.zip
 del ui.temp -recurse

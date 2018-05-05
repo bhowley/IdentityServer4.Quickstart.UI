@@ -51,13 +51,13 @@ This repo contains the controllers, models, views and CSS files needed for the U
 Alternatively you can run this powershell script from your web project directory to download them automatically:
 
 ```
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bhowley/IdentityServer4.Modules/release/get.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bhowley/IdentityServer4.Quickstart.UI/release/get.ps1'))
 ``` 
 
 Or using bash one-liner on macOS or Linux:
 
 ```bash
-\curl -L https://raw.githubusercontent.com/bhowley/IdentityServer4.Modules/release/get.sh | bash
+\curl -L https://raw.githubusercontent.com/bhowley/IdentityServer4.Quickstart.UI/release/get.sh | bash
 ```
 
 ### Adding support for external authentication
