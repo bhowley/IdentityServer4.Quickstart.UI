@@ -1,4 +1,4 @@
-$source = "https://github.com/bhowley/IdentityServer4.Modules/archive/2.2.0.zip"
+$source = "https://github.com/bhowley/IdentityServer4.Quickstart.UI/archive/2.2.0.zip"
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 Invoke-WebRequest $source -OutFile ui.zip
 
