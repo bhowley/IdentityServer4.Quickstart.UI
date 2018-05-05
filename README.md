@@ -3,7 +3,7 @@
 This repo contains an MVC based UI for login, logout and consent that supplements an IdentityServer4 configured for in-memory clients, users, and scopes. 
 Note that the repo doesn't include solution and project files, but should be copied to your project as described below.
 
-**note** This branch contains the files for IdentityServer4 v2 and ASP.NET Core / MVC 2. The files for IdentityServer 1.x and ASP.NET Core 1.x can be found [on this branch](https://github.com/IdentityServer/IdentityServer4.Quickstart.UI/tree/aspnetcore1). The documentation for 1.x can be found [here](http://docs.identityserver.io/en/aspnetcore1/).
+**note** This branch contains the files for IdentityServer4 v2 and ASP.NET Core / MVC 2. The files for IdentityServer 1.x and ASP.NET Core 1.x can be found [on this branch](https://github.com/IdentityServer/IdentityServer4.Modules/tree/aspnetcore1). The documentation for 1.x can be found [here](http://docs.identityserver.io/en/aspnetcore1/).
 
 ## Issues
 
@@ -51,13 +51,13 @@ This repo contains the controllers, models, views and CSS files needed for the U
 Alternatively you can run this powershell script from your web project directory to download them automatically:
 
 ```
-iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bhowley/IdentityServer4.Quickstart.UI/release/get.ps1'))
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/bhowley/IdentityServer4.Modules/release/get.ps1'))
 ``` 
 
 Or using bash one-liner on macOS or Linux:
 
 ```bash
-\curl -L https://raw.githubusercontent.com/bhowley/IdentityServer4.Quickstart.UI/release/get.sh | bash
+\curl -L https://raw.githubusercontent.com/bhowley/IdentityServer4.Modules/release/get.sh | bash
 ```
 
 ### Adding support for external authentication
